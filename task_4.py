@@ -79,6 +79,8 @@ def main():
         
         elif command == "all":
             print(show_all(args, contacts))
+        else:
+            print("Invalid command.")
             
 if __name__ == "__main__":
     main()
